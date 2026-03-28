@@ -1,0 +1,19 @@
+# Archivos de compilación (Arduino/PlatformIO)
+.pio/
+build/
+*.hex
+*.bin
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+
+# SECRETOS (¡Muy importante!)
+# Crea un archivo llamado secrets.h para tu WiFi y no lo subas
+secrets.h
+config_wifi.json
+
+# Archivos de Sistema
+.DS_Store
+Thumbs.db
